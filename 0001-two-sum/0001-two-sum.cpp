@@ -6,12 +6,9 @@ public:
      for(int i=0;i<nums.size();i++){
         int rem = target-nums[i];
         if(mpp.find(rem)!=mpp.end()){
-          ans[0]=i;
-          ans[1]=mpp[rem];
+        return {mpp[rem],i};
         }
-        if(mpp.find(nums[i])==mpp.end()){
             mpp[nums[i]]=i;
-        }
      }
     return ans;
     }
