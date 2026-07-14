@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0018-4sum) |
 | [1331-rank-transform-of-an-array](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/1331-rank-transform-of-an-array) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/3005-count-elements-with-maximum-frequency) |
@@ -52,9 +53,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0018-4sum) |
 | [1331-rank-transform-of-an-array](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/1331-rank-transform-of-an-array) |
 ## Two Pointers
 |  |
 | ------- |
 | [0015-3sum](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0018-4sum) |
 <!---LeetCode Topics End-->
