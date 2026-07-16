@@ -1,21 +1,37 @@
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
-      sort(nums.begin(),nums.end());
-      vector<int>ans;
-      int i=0;
-      while(i<nums.size()){
-        int j=i+1;
-          int cnt=1;
-        while(j<nums.size() && nums[i]==nums[j]){
-            cnt++;
-            j++;
+        int n=nums.size();
+        int cnt1=0;
+        int cnt2=0;
+        int el1=-1;
+        int el2=-1;
+        for(int i=0;i<n;i++){
+            if(el1==nums[i]) cnt1++;
+            else if(el2==nums[i]) cnt2++;
+            else if(cnt1==0){
+                el1=nums[i];
+                cnt1=1;
+            }
+            else if(cnt2==0){
+                el2=nums[i];
+                cnt2=1;
+            }
+            else{
+                cnt1--;
+                cnt2--;
+            }
         }
-        if(cnt>nums.size()/3){
-            ans.push_back(nums[i]);
+        cnt1=0;
+        cnt2=0;
+        for(int i=0;i<n;i++){
+            if(el1==nums[i]) cnt1++;
+            else if(el2==nums[i]) cnt2++;
         }
-        i=j;
-      }  
-      return ans ;
+        cout<<el1<<" "<<el2<<endl;
+        if(cnt1>n/3 && cnt2>n/3) return {el1,el2};
+        if(cnt1>n/3) return {el1};
+        if(cnt2>n/3) return {el2};
+        return {};
     }
 };
