@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0018-4sum) |
+| [0053-maximum-subarray](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0229-majority-element-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/1331-rank-transform-of-an-array) |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0169-majority-element) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Segment Tree
@@ -74,4 +76,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/3658-gcd-of-odd-and-even-sums) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/CalmyCoding31/LeetCode-Problems/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
